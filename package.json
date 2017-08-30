@@ -1,20 +1,23 @@
 {
   "name": "eride",
-  "version": "1.0.0",
-  "description": "eride",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carpoolooprac/eride.git"
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carpoolooprac/eride/issues"
+  "engines": {
+    "node": "~6.11.2"
   },
-  "homepage": "https://github.com/carpoolooprac/eride#readme"
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
