@@ -3,7 +3,9 @@ class eride{
 		let html = `
 			<nav class="white" role="navigation">
 				<div class="nav-wrapper container">
-					<a id="logo-container" href="#" class="brand-logo">Logo</a>
+					<a id="logo-container" href="#" class="brand-logo">
+						<img src="/images/icon.png" style="width:50px;height:50px;margin-top:3px;"/>
+					</a>
 					<ul class="right hide-on-med-and-down">
 						<li><a href="#">Navbar Link</a></li>
 					</ul>
@@ -19,9 +21,11 @@ class eride{
 				<div class="section no-pad-bot">
 					<div class="container">
 						<br><br>
-						<h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+						<h1 class="header center teal-text text-lighten-2">eRiDE</h1>
 						<div class="row center">
-							<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+							<h5 class="header col s12 light">Your carpool buddy that delivers you to your destination -- safe and sound</h5>
+							<br/>
+							<div>Choose. Ride. Monitor.</div>
 						</div>
 						<div class="row center">
 							<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
